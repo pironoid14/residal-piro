@@ -1,3 +1,16 @@
-.header-main{
-    border: 2px solid red;
+*{
+    border: solid red;
+}
+.header_main{
+border: 2px solid green;
+    display: flex;
+    height: 69px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+.header-cta{
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
