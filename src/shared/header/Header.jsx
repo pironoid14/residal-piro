@@ -30,7 +30,7 @@ const Header = () => {
     }
       </ul>
       <div>
-        <Button btnName={"Download App"} outline/>
+        <Button btnName={"Download App"}outline />
       </div>
     </div>
     </div>
@@ -40,7 +40,7 @@ const Header = () => {
 export default Header;
 const nav = [
   {
-    name:"contact",
+    name:"Contact",
     to:"/contact"
   }
 ]
