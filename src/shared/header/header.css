@@ -9,8 +9,20 @@ border: 2px solid green;
     justify-content: space-between;
     padding: 0 5rem;
 }
-.header-cta{
+.header_cta{
 display: flex;
+gap: 8px;
 align-items: center;
 justify-content: space-between;
+}
+.header_cta ul li {
+    list-style: none;
+    color:black
+}
+.header_cta ul li a {
+    color: rgb(0,0,0);
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+     
 }
