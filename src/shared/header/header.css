@@ -7,7 +7,7 @@ border: 2px solid green;
     height: 69px;
     align-items: center;
     justify-content: space-between;
-    padding: 0 5rem;
+    padding: 0 10rem;
 }
 .header_cta{
 display: flex;
@@ -17,12 +17,13 @@ justify-content: space-between;
 }
 .header_cta ul li {
     list-style: none;
-    color:black
+    color:black;
+    font-size: 12px;
 }
 .header_cta ul li a {
     color: rgb(0,0,0);
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
+    font-weight: normal;
      
 }

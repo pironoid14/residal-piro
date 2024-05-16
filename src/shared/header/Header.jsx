@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css';
 import { Link } from 'react-router-dom';
+import Button from 'shared/button/button';
 const Header = () => {
   return (
     <div className="header_main">
@@ -29,7 +30,7 @@ const Header = () => {
     }
       </ul>
       <div>
-        <button btnName={"Download App"}></button>
+        <Button btnName={"Download App"} outline/>
       </div>
     </div>
     </div>
