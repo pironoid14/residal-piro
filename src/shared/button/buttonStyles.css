@@ -22,3 +22,11 @@
     cursor: pointer;
     color: #1f4b43;
 }
+@media (max-width :768px) {
+    .btn,
+    .outline{
+        padding: 0px;
+        font-size: 11px;
+    }
+    
+}

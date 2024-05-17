@@ -1,12 +1,11 @@
-
 .header_main{
-
-    display: flex;
-    height: 69px;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 10rem;
+display: flex;
+height: 69px;
+align-items: center;
+justify-content: space-between;
+padding: 0 10rem;
 }
+
 .header_cta{
 display: flex;
 gap: 8px;
@@ -25,4 +24,34 @@ justify-content: space-between;
     font-weight: normal;
     font-size: 14px;
      
+}
+desktop-logo{
+    display: none;
+}
+
+@media (max-width :768px) { 
+    .mobile-logo{
+        display: block;
+    }
+    .header_main{
+        justify-content: space-between;
+        height: 100vh;
+        padding:0 ;
+    }
+    
+    .menu{
+        display: block;
+        padding: 10px;
+    }
+    .header_cta{
+        padding-right:10px;
+        flex-direction: row;
+        gap: 10px; 
+    }
+    .header_cta ul li{
+        display: none;
+    }
+    .header_cta ul li a{
+        font-size: 12px;
+    }
 }

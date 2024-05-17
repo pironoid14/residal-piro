@@ -1,0 +1,10 @@
+.hero_section_container_{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.herosectioncontent{
+    width: 50%;
+    height: max-content;
+}
