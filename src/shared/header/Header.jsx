@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css';
 import { Link } from 'react-router-dom';
-import Button from 'shared/button/button';
+import Button from 'shared/button/Button';
 import {MdOutlineMenuOpen} from "react-icons/md";
 const Header = () => {
   return (
