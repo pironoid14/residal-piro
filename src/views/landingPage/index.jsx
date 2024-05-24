@@ -1,12 +1,15 @@
 import React from 'react'
 //import './landingPage.css'
-import Header from 'shared/header/Header'
-import Button from 'shared/button/Button'
+import Header from 'shared/header'
+import Button from 'shared/button'
+import HeroSection from 'components/heroSection'
+
 const LandingPage = () => {
   return (
-    <div>landingPage
+    <div>
     <Header/>
     <Button/>
+    <HeroSection/>
     </div>
   
   )
