@@ -1,9 +1,14 @@
-import React from 'react'
-import "./buttonStyles.css"
-const Button = ({btnName, outline}) => {
-  return (
-    <div className={`${ outline ? "outline" : "btn"}`}>{btnName}</div>
+import React from 'react';
+import "./buttonStyles.css";
+const Button = ({style, btnName, outline,rightIcon,leftIcon }) => {
+  return ( 
+    <button style={style} className={`${ outline ? "outline" : "btn"}`}>
+      {leftIcon && <span className="leftIcon">{leftIcon}</span>}
+      {btnName}
+    {rightIcon && <span className="rightIcon">{rightIcon}</span>}
+    </button>
+
   )
 }
 
-export default Button
+export default Button;

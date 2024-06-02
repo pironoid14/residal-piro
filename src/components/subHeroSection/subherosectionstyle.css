@@ -13,7 +13,7 @@
     text-align: left;
   }
   
-  @media (max-width: 841px) {
+  @media (max-width: 768px) {
     .sub_hero_section_container {
       flex-direction: column;
       padding: 0 2rem;

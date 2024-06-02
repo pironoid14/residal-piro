@@ -1,6 +1,6 @@
 .header_main{
 display: flex;
-height: 9vh;
+height: 7vh;
 align-items: center;
 justify-content: space-between;
 padding: 0 10rem;
@@ -25,17 +25,21 @@ justify-content: space-between;
     font-size: 14px;
      
 }
-desktop-logo{
+.menu{
     display: none;
+}
+desktop-logo{
+    display: block;
 }
 
 @media (max-width :768px) { 
-    .mobile-logo{
+    .desktop-logo{
         display: block;
+        padding-left: 15px;
     }
     .header_main{
         justify-content: space-between;
-        height: 100vh;
+        height: 10vh;
         padding:0 ;
     }
     
