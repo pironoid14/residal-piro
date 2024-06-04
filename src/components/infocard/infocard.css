@@ -16,6 +16,8 @@
 .info_description{
     width:full;
     height: 70vh;
+    display: flex;
+    flex-direction: column;
     
 }
 .info{
@@ -49,9 +51,16 @@
     width: full;
     height: 70vh;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     
+}
+.info_comprehensive{
+    width: full;
+    height: 70vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 .image{
     width: 70%;

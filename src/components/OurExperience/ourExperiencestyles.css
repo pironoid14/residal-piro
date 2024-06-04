@@ -6,7 +6,6 @@
 .our_exp_container{
     height: 235px;
     gap: 12px;
-    border: solid;
     display:flex;
     padding: 0 10rem;
     background-color: #fff;
@@ -26,7 +25,6 @@
     flex-basis: 30%;
 }
 .boxes_container{
-    border: solid;
     justify-content: space-between;
     gap: 12px;
 

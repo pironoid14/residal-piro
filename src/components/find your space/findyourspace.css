@@ -1,0 +1,63 @@
+.fyp_container{
+    height: 30vh;
+    padding: 8rem 10rem;
+    background-image: url("/src/assets/Frame15.svg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+.fyp_image_section, .fyp_text_section{
+    flex-basis: 50%;
+}
+.fyp_text_section{
+    text-align: left;
+    justify-content: start;
+}
+.fyp_text_section div p{
+    font-weight: bolder;
+    font-size: 33px;
+    color: #fff;
+    padding-right: 10rem;
+    margin: 0 0 1rem 0;
+}
+.fyp_text_section div span{
+    font-weight: normal;
+    font-size: 33px;
+    color: #fff;
+}
+.fyp_button{
+    margin-top: 2rem;
+    width: 33%;
+}
+
+@media (max-width:841px){
+    .fyp_container{
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .fyp_text_section{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .fyp_image_section, .fyp_text_section{
+        width: 100%;
+        
+    }
+    .fyp_text_section div p{
+        font-weight: bold;
+        font-size: 30px;
+        color: #fff;
+        padding-right: 0rem;
+        margin: 0 0 1rem 0;
+    }
+    .fyp_text_section div span{
+        font-size: 25px;
+        
+    }
+    .fyp_button{
+        margin-top: 2rem;
+        width: 100%;
+    }
+}
