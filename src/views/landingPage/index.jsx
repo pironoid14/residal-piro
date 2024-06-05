@@ -10,7 +10,8 @@ import FindyourSpace from 'components/find your space'
 import image  from "assets/image1.svg";
 import guidemap from "assets/map.svg";
 import house from "assets/houseloan.svg";
-import Discover from 'components/discover'
+import Discover from 'components/discover';
+import office from "assets/office.svg"
 //import FeaturedProperties from 'components/featuredProperties'
 const LandingPage = () => {
   return (
@@ -63,6 +64,14 @@ const LandingPage = () => {
        
         />
       <Discover/>
+      <InfoCard title="Need an office space?" 
+    body="Seeking office space in Lagos? Look no further! Our accommodations 
+    offer tailored solutions to meet your workspace needs, ensuring
+     productivity and comfort in the heart of Lagos"
+        image={office}
+        imageStyle={"info_image"}
+        noButton={true}
+        infoStyle={"info"}/>
     </div>
   
   )
