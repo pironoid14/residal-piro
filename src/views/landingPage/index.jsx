@@ -9,6 +9,9 @@ import OurExperience from 'components/OurExperience'
 import FindyourSpace from 'components/find your space'
 import image  from "assets/image1.svg";
 import guidemap from "assets/map.svg";
+import house from "assets/houseloan.svg";
+import Discover from 'components/discover'
+//import FeaturedProperties from 'components/featuredProperties'
 const LandingPage = () => {
   return (
     <div>
@@ -23,8 +26,10 @@ const LandingPage = () => {
          individuals and families who are navigating the challenging terrain 
         of apartment hunting in a new or familiar city."
         image={image}
-        imageStyle={"info_image"}/>
-        
+        imageStyle={"info_image"}
+        noButton={true}
+        infoStyle={"info"}/>
+       
     <OurExperience/>
     <FindyourSpace/>
     <InfoCard title="Comprehensive" 
@@ -34,8 +39,30 @@ const LandingPage = () => {
      quirks of each area so you can find your perfect match 
      effortlessly! 🏡✨"
         image={guidemap}
-        imageStyle={"info_comprehensive"}/>
+        imageStyle={"info_comprehensive"}
+        button={true}
+        infoStyle={"info_guide"}
+        />
 
+
+<InfoCard title="Do you have a property?" 
+    subtitle="Provide accommodation
+    here in Lagos"
+    body="Own a property in Lagos? Join our platform to effortlessly list your 
+    accommodations and connect with eager tenants seeking their
+     perfect home in the vibrant city of Lagos."
+        image={house}
+        imageStyle={"info_comprehensive"}
+        button={true}
+        infoStyle={"info_guide"}
+        circle={true}
+        circleStyletitle
+        circleStylesubtitle
+        reverse
+
+       
+        />
+      <Discover/>
     </div>
   
   )
