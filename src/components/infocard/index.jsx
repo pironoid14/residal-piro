@@ -11,18 +11,43 @@ const InfoCard = ({title,subtitle,body,image,imageStyle,button,infoStyle,circle,
   return (
     <div className="info_container">
         <div className="info_inner_container">
+
           {reverse ? ( <>
-        
-        <div className="info_description">
-          </div>
+
+            <div className="info_description">
+            <div className={infoStyle}>
+              {circle && (<div className="info_circle">
+                <Circleimage image= {circle1}/>
+                <Circleimage image= {circle2} style={{marginLeft:'30px'}}/>
+                <Circleimage image= {circle3} style={{zIndex:30,marginLeft:'30px'}}/>
+                <Circleimage image= {circle4}style={{marginLeft:'30px',zIndex:'40'}}/>            
+                </div>)}
+                {circleStyletitle ? (<h2 className="info-title" style={{fontWeight:600}}>{title} </h2>
+              ):<h2 className="info-title">{title} </h2>}
+            {circleStylesubtitle ? (<h2 className="info-subtitle" style={{fontWeight:600, textAlign:"left"}}>{subtitle}</h2>)
+            :(<h2 className="info-subtitle" >{subtitle}</h2>)}
+            
+            <p className="info-body">{body}.{""} </p>
+          { button ? (<Button 
+                style={{ backgroundColor: "#dba94d",
+      color:"#1f4b43",
+      padding:"7px,12px",
+      width:"256px"
+    }} btnName={"Download our app"}
+    rightIcon={<GoArrowRight size ={22} />}
+    />):(
+      "" 
+      )}
+                 </div>
+                 
+        </div>
           <div className={imageStyle}>
             <img src={image} alt='image1' className="image"/>
              </div>
-             
-          </>
-       ):(
-      <>
-    <div className={imageStyle}>
+             </>
+  ):(
+    <>
+             <div className={imageStyle}>
             <img src={image} alt='image1' className="image"/>
              </div>
         <div className="info_description">
@@ -51,7 +76,10 @@ const InfoCard = ({title,subtitle,body,image,imageStyle,button,infoStyle,circle,
       )}
                  </div>
                  
-        </div></>)}
+        </div>
+        </>
+      )}
+    
         </div>
     </div>
      //<div className="info_container">
