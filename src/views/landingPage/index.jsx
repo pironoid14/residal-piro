@@ -14,6 +14,7 @@ import Discover from 'components/discover';
 import office from "assets/office.svg"
 import FindHomes from 'components/find homes'
 //import FeaturedProperties from 'components/featuredProperties'
+import phone from "assets/phones.svg"
 const LandingPage = () => {
   return (
     <div>
@@ -62,8 +63,6 @@ const LandingPage = () => {
         circleStyletitle
         circleStylesubtitle
         reverse
-
-       
         />
         <FindHomes/>
       <Discover/>
@@ -75,6 +74,17 @@ const LandingPage = () => {
         imageStyle={"info_image"}
         noButton={true}
         infoStyle={"info"}/>
+
+        <InfoCard title="Download our app" 
+    body="With intuitive search features and a curated selection of properties tailored to your preferences, 
+    finding your dream home has never been easier. 
+    Join thousands of satisfied users who have unlocked the key to their ideal living space with just a tap."
+        image={phone}
+        imageStyle={"info_image"}
+        button={true}
+        infoStyle={"info"}
+        reverse
+        />
       
     </div>
   
