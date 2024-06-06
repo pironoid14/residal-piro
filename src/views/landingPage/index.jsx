@@ -15,6 +15,7 @@ import office from "assets/office.svg"
 import FindHomes from 'components/find homes'
 //import FeaturedProperties from 'components/featuredProperties'
 import phone from "assets/phones.svg"
+import Footer from 'shared/footer'
 const LandingPage = () => {
   return (
     <div>
@@ -80,11 +81,12 @@ const LandingPage = () => {
     finding your dream home has never been easier. 
     Join thousands of satisfied users who have unlocked the key to their ideal living space with just a tap."
         image={phone}
-        imageStyle={"info_image"}
+        imageStyle={"info_comprhensive"}
         button={true}
-        infoStyle={"info"}
+        infoStyle={"info-guide"}
         reverse
         />
+        <Footer/>
       
     </div>
   
