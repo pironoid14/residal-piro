@@ -100,7 +100,7 @@ info_guide,.info-subtitle{
 }
 .info_comprehensive{
     width: full;
-    height: 70vh;
+    height: auto;
     display: flex;
     align-items: flex-start;
     justify-content: center;
