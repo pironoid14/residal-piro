@@ -33,7 +33,7 @@
 @media (max-width:841px){
     .fyp_container{
         flex-direction: column;
-        padding: 2rem;
+        padding: 1rem;
     }
     .fyp_text_section{
         display: flex;
@@ -44,6 +44,8 @@
     .fyp_image_section, .fyp_text_section{
         width: 100%;
         
+    }.fyp_image_section{
+        height: auto;
     }
     .fyp_text_section div p{
         font-weight: bold;
@@ -58,6 +60,6 @@
     }
     .fyp_button{
         margin-top: 2rem;
-        width: 100%;
+        width: 50%;
     }
 }

@@ -11,7 +11,7 @@ const FindHomes = () => {
             <div className>
             <h3>Apartments in Lekki, Obalende, Agege & Yaba </h3>
             </div>
-            <div>
+            <div className="imgrr">
 <img src={homes} alt="homes" />
         </div>
         </section>
