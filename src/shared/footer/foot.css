@@ -1,7 +1,7 @@
 .footer_container{
     background-color: #1f4b43;
     padding: 20px;
-    height: auto;
+    
     
 
 }
@@ -9,22 +9,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 5rem;
+   
 }
 .footer_header{
     color: #fff;
-    align-items: left;
+    align-items: center;
     display: flex;
     margin-bottom: 20px;
-    flex-direction: column;
     
 }
-
+.header_foot{
+    display: flex;
+  flex-direction: column;
+}
 .footer_list{
 
     margin-bottom: 20px;
     display: flex;
-    justify-content: right;
+    width: 100%;
+    justify-content:right;
     color: #fff;
     list-style-type: none;
     
