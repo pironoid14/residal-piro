@@ -7,7 +7,7 @@ import circle2 from 'assets/circle2.svg'
 import circle3 from 'assets/circle3.svg'
 import circle4 from 'assets/circle4.svg'
 import Circleimage from './circle image';
-const InfoCard = ({title,subtitle,body,image,imageStyle,button,infoStyle,circle,circleStyletitle,circleStylesubtitle,reverse}) => {
+const InfoCard = ({title,subtitle,body,image,imageStyle,button,infoStyle,imageHeight,circle,circleStyletitle,circleStylesubtitle,reverse}) => {
   return (
     <div className="info_container">
         <div className="info_inner_container">
@@ -42,13 +42,13 @@ const InfoCard = ({title,subtitle,body,image,imageStyle,button,infoStyle,circle,
                  
         </div>
           <div className={imageStyle}>
-            <img src={image} alt='image1' className="image"/>
+            <img src={image} alt='image1' className={imageHeight}/>
              </div>
              </>
   ):(
     <>
              <div className={imageStyle}>
-            <img src={image} alt='image1' className="image"/>
+            <img src={image} alt='image1' className={imageHeight}/>
              </div>
         <div className="info_description">
             <div className={infoStyle}>

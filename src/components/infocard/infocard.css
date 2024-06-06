@@ -13,6 +13,14 @@
     column-gap: 8px;
    
 }
+.info_comprehensive_imageHeight{
+    width: 70%;
+    height: 400px;
+}
+.info_comprehensive_houseHeight{
+    width: 70%;
+    height: 500px;
+}
 .info_circle{
     width: 200px;;
     gap: 1rem;

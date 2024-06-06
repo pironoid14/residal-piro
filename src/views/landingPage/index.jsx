@@ -12,6 +12,7 @@ import guidemap from "assets/map.svg";
 import house from "assets/houseloan.svg";
 import Discover from 'components/discover';
 import office from "assets/office.svg"
+import FindHomes from 'components/find homes'
 //import FeaturedProperties from 'components/featuredProperties'
 const LandingPage = () => {
   return (
@@ -53,6 +54,7 @@ const LandingPage = () => {
     accommodations and connect with eager tenants seeking their
      perfect home in the vibrant city of Lagos."
         image={house}
+        imageHeight={"info_comprehensive_houseHeight"}
         imageStyle={"info_comprehensive"}
         button={true}
         infoStyle={"info_guide"}
@@ -63,6 +65,7 @@ const LandingPage = () => {
 
        
         />
+        <FindHomes/>
       <Discover/>
       <InfoCard title="Need an office space?" 
     body="Seeking office space in Lagos? Look no further! Our accommodations 
@@ -72,6 +75,7 @@ const LandingPage = () => {
         imageStyle={"info_image"}
         noButton={true}
         infoStyle={"info"}/>
+      
     </div>
   
   )

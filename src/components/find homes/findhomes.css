@@ -1,0 +1,26 @@
+.fh_container{
+    width: full;
+    height: auto;
+    overflow-x: hidden;
+    
+}
+.fh_text{
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    
+}
+.fh_text div h1{
+    font-size: 33px;
+    font-weight: bolder;
+    color:#1f4b43;
+} 
+.fh_text div h3 {
+    font-weight: 100;
+    font-size: 10px;
+    color: #1f4b43;
+}
+.fh_image{
+    align-items: center;
+    justify-content: center;
+}
