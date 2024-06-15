@@ -2,23 +2,24 @@
     border: 1px solid #1f4b43;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    border-bottom-right-radius:12px;
     border-bottom-left-radius:0 ;
-    border-bottom-right-radius:12px ;
     padding: 12px;
     background-color: transparent;
-    font-size: 14px;
+    font-size: 13px;
     cursor: pointer;
     color:#1f4b43;
     font-weight: normal;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 12px;
 }
 .outline:hover, .btn:hover{
 opacity: 0.7;
 }
 .leftIcon, .rightIcon{
-    margin-top: 5px;
+    margin-top: 3px;
 }
 .btn{
     border: 1px solid transparent;
@@ -31,6 +32,10 @@ opacity: 0.7;
     font-size: 14px;
     cursor: pointer;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
 }
 @media (max-width :841px) {
     .btn,

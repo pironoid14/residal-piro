@@ -6,7 +6,7 @@ const Discover = () => {
   return (
     <div className="disc-container">
       <div className="disc_content">
-        <h1 className="disc_text flex">Discover a place you'll<br/>
+        <h1 className="disc_text">Discover a place you'll<br/>
 love to live</h1>
 <div className="button" >
         <Button style={{

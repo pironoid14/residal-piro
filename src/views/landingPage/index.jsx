@@ -16,6 +16,7 @@ import FindHomes from 'components/find homes'
 //import FeaturedProperties from 'components/featuredProperties'
 import phone from "assets/phones.svg"
 import Footer from 'shared/footer'
+
 const LandingPage = () => {
   return (
     <div>
@@ -47,8 +48,7 @@ const LandingPage = () => {
         button={true}
         infoStyle={"info_guide"}
         />
-
-
+        
 <InfoCard title="Do you have a property?" 
     subtitle="Provide accommodation
     here in Lagos"
@@ -87,6 +87,7 @@ const LandingPage = () => {
         reverse
         />
         <Footer/>
+        
       
     </div>
   
