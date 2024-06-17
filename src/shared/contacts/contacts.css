@@ -1,0 +1,59 @@
+.Form_contact{
+    width: auto;
+    height: auto;
+    overflow-x: hidden;
+    background-color: #ffffff;
+   
+}
+.hi,.lo{
+    
+    text-align: center;
+    color: #1f4b43;
+}
+.container_cont{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.contact_info{
+    background-color:#1f4b43;
+    color: #ffffff;
+    
+}
+.contact_info_list,ul{
+    list-style-type: none;
+    color: #ffffff;
+    grid: 10px;
+}
+.contact_form{
+    background-color: #ffffff;
+    color: #1f4b43;
+    height: auto;
+    width: 100%;
+    border: 0px solid #1f4b43;
+}
+.form_field{
+    display: flex;
+    align-items: flex-start;
+}
+.first,.last{
+    border: 1px solid #1f4b43;
+    margin-top: 30px;
+    height: 30px;
+    width: 320px;
+    color: #1f4b43;
+    margin-left: 30px;
+    border-bottom: 1px solid #1f4b43;
+    background-color: #ffffff;
+
+}
+.email,.tel{
+    margin-top: 30px;
+    height: 30px;
+    width: 320px;
+    margin-left: 30px;
+    border-bottom: 1px solid  #1f4b43;
+    background-color: #ffffff;
+    color: #1f4b43;
+}

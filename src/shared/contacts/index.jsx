@@ -5,10 +5,15 @@ import { GoArrowRight } from 'react-icons/go'
 import { GoLocation } from "react-icons/go";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
 import { CiMail } from "react-icons/ci";
+import Header from 'shared/header';
+
 
 const Contact = () => {
   return (
     <div className="Form_contact">
+      <Header/>
+      <h1 className="hi">Contact Us</h1>
+      <h3 className="lo">Any Questions or remarks? Just write us a message</h3>
       <div className="container_cont">
       <div className="contact_info">
         <h1>Contact Information</h1>
@@ -26,16 +31,16 @@ const Contact = () => {
         <div className="form-field">
           <fieldset>
             
-            <input type="text" name="first" id="first" placeholder= "First Name" />
+            <input type="text" name="first" id="first" placeholder= "First Name"  class ="first"/>
 
             
-            <input type="text" name="last" id="last" placeholder= "Last Name" />
+            <input type="text" name="last" id="last" placeholder= "Last Name"class ="last" />
 
             
-            <input type="email" name="email" id="email" placeholder='Email'/>
+            <input type="email" name="email" id="email" placeholder='Email' class ="email"/>
 
             
-            <input type="tel" name="phone" id="phone"placeholder='Phone Number' />
+            <input type="tel" name="phone" id="phone"placeholder='Phone Number'  class ="tel"/>
             </fieldset>
             </div>
             <div className="form-2">
@@ -48,7 +53,7 @@ const Contact = () => {
                     <label><input type="radio" name="" id="" />Others</label>
                 </div>
                 <div className="form-message">
-                    <textarea name="" id="" placeholder='Your message'></textarea>
+                    <textarea name="messagee" id="message" placeholder='Your message'></textarea>
                 </div>
                 <div className=" form-button">
                 <Button

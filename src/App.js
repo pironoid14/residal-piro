@@ -1,6 +1,7 @@
 
 //import './App.css';
-import Contact from 'views/contacts'
+
+import Contact from 'shared/contacts';
 import LandingPage from 'views/landingPage';
 function App() {
   return (
