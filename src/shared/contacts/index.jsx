@@ -53,7 +53,7 @@ const Contact = () => {
                     <label><input type="radio" name="" id="" />Others</label>
                 </div>
                 <div className="form-message">
-                    <textarea name="messagee" id="message" placeholder='Your message'></textarea>
+                    <textarea name="messagee" id="message" placeholder='Your message' rows={5} cols={30}></textarea>
                 </div>
                 <div className=" form-button">
                 <Button
