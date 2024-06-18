@@ -1,5 +1,5 @@
 .disc-container {
-    height: 30vh;
+    height: 50vh;
     padding: 8rem 10rem;
     background-image: url("/src/assets/discover.svg"); 
     background-size: cover;
@@ -33,6 +33,7 @@
     cursor: pointer;
     align-items: center;
     justify-content: center;
+    justify-items: center;
     
   }
   

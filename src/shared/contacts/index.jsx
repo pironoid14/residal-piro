@@ -6,6 +6,7 @@ import { GoLocation } from "react-icons/go";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
 import { CiMail } from "react-icons/ci";
 import Header from 'shared/header';
+import Footer from 'shared/footer';
 
 
 const Contact = () => {
@@ -72,7 +73,9 @@ const Contact = () => {
         </form>
       </div>
       </div>
+      <Footer/>
     </div>
+    
   )
 }
 
