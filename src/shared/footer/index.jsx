@@ -4,7 +4,6 @@ import './foot.css'
 const Footer = () => {
   return (
     <div className="footer_container">
-      
       <div className="footer_list ">
         <div className="header_foot">
       <h1> Resida </h1>
